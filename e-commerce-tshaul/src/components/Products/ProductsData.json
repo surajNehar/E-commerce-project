@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "name": "Epic Adventure white color Tee",
+      "description": "Embrace the spirit of adventure with our Epic Adventure Tee. Crafted from premium cotton for maximum comfort, this tee features a bold mountain graphic, inspiring you to explore the great outdoors.",
+      "price":"19.99",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61jB23IG5dL._SX679_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Galactic Vibes Shirt",
+      "description": " Elevate your style to cosmic heights with our Galactic Vibes Shirt. This intergalactic-themed tee boasts a mesmerizing nebula design, perfect for stargazers and dreamers. Made with soft, breathable fabric for everyday comfor",
+      "price": 29.99,
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61RcQb3xa8L._SY879_.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Vintage Explorer purple T-Shirt",
+        "description": "Unleash your inner explorer with our Vintage Explorer T-Shirt. The distressed print gives it a retro feel, while the classic fit ensures timeless style. Ideal for those who crave both comfort and a touch of nostalgia.",
+        "price": 10.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/7104sEgEVAL._SX679_.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Neon Dreams Unisex Tee",
+        "description": "Dive into a world of vivid colors with our Neon Dreams Unisex Tee. The eye-catching neon palette adds a pop of excitement to your wardrobe. Made from a blend of soft fabrics, it's as comfortable as it is vibrant.",
+        "price": 25.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61hEqppV-ZL._SY879_.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Zen Garden Relaxation Shirt",
+        "description": "Find your inner peace in our Zen Garden Relaxation Shirt. Featuring a serene Japanese garden print, this tee is designed for those who appreciate tranquility and mindfulness. Slip into comfort and let the stress melt away",
+        "price": 15.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61DQjCuGzUL._SY879_.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Comic Connoisseur Tee",
+        "description": "Calling all comic enthusiasts! The Comic Connoisseur Tee is a must-have for fans of the graphic novel world. Showcasing iconic comic book panels, this shirt combines fandom with fashion for a geek-chic look.",
+        "price": 30.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61vehsU+mtL._SY879_.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Coffee Lover's Delight Shirt",
+        "description": "Express your love for coffee with our Coffee Lover's Delight Shirt. Adorned with quirky coffee cup illustrations, this tee is perfect for caffeine enthusiasts. The comfortable fabric ensures you stay cozy during your coffee runs.",
+        "price": 20.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51+1JektlDL._SX569_.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Tropical Breeze Paradise Tee",
+        "description": "Transport yourself to an island paradise with our Tropical Breeze Paradise Tee. The vibrant tropical print and relaxed fit make it an essential for beach lovers and anyone seeking a touch of summer vibes",
+        "price": 29.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71NeU7k0eRL._SY879_.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Sapphire Shirt multicolor",
+        "description": " Dive into tranquility with the calming blue hues of our Sapphire Serenity Shirt.",
+        "price": 20.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/618ULEergYL._SX679_.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Crimson Blaze red Tee",
+        "description": " Ignite your style with the fiery red tones of our Crimson Blaze Tee.",
+        "price": 24.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61DHS3rZZyL._SX569_.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Emerald Elegance sweatShirt",
+        "description": "Exude sophistication in the lush green shades of our Emerald Elegance T-Shirt.",
+        "price": 40.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/610wKosBKsL._SX679_.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Golden Horizon blue Tee",
+        "description": " Chase the sun in our Golden Horizon Unisex Tee, radiating warmth with its sunny yellow palette.",
+        "price": 9.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61vWSaQ2NML._SX569_.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Plum Passion Vintage Explorer",
+        "description": "Unleash your adventurous side in the rich purples of our Plum Passion Vintage Explorer.",
+        "price": 45.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51pzR+8zABL._SX679_.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Dreams Zen Garden Shirt",
+        "description": " Find peace in the calming turquoise hues of our Turquoise Dreams Zen Garden Shirt.",
+        "price": 26.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61r0PYFOONL._SX569_.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Chocolate Charisma Comic",
+        "description": "Add a touch of charm to your style with the deep browns of our Chocolate Charisma Comic Connoisseur.",
+        "price": 29.99,
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61pfwJxFhRL._SX679_.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Female crop-top purple",
+        "description": "Description for Product ",
+        "price": 29.99,
+        "image": "https://overlays.co/cdn/shop/files/20230802-DSC01397.jpg?v=1691773084&width=300"
+      },
+      {
+        "id": 17,
+        "name": "Orange oversize female t-shirt",
+        "description": "Description for Product ",
+        "price": 29.99,
+        "image": "https://overlays.co/cdn/shop/products/CopyofDSC01724.jpg?v=1680534936&width=300"
+      },
+      {
+        "id": 18,
+        "name": "Green oversize Female shirt",
+        "description": "Description for Product 18",
+        "price": 29.99,
+        "image": "https://overlays.co/cdn/shop/products/CopyofDSC01434.jpg?v=1680189499&width=800"
+      },
+      {
+        "id": 19,
+        "name": "Blue ovesize Female t-shirt",
+        "description": "Description for Product 19",
+        "price": 35.99,
+        "image": "https://overlays.co/cdn/shop/products/CopyofDSC01666.jpg?v=1680534952&width=300"
+      },
+      {
+        "id": 20,
+        "name": "creamy oversize Female T-shirt ",
+        "description": "Description for Product 20",
+        "price": 45.99,
+        "image": "https://overlays.co/cdn/shop/products/CopyofDSC01603.jpg?v=1680534929&width=300"
+      },
+      {
+        "id": 21,
+        "name":"Green unisex sweatshirt",
+        "description": "Description for Product 21",
+        "price": 50.99,
+        "image": "https://overlays.co/cdn/shop/products/Untitled-1_0096_101_jpg_5f60847e-6ddd-4e85-a013-3badee880f5f.jpg?v=1668605413&width=800"
+      },
+      {
+        "id": 22,
+        "name": "Male lightGreen sweatshirt",
+        "description": "Description for Product 22",
+        "price": 29.99,
+        "image": "https://overlays.co/cdn/shop/products/Untitled-1_0017_22_jpg_a377ecff-21d3-425e-9c0a-adadbec5f1cf.jpg?v=1668605413&width=800"
+      },
+      {
+        "id": 23,
+        "name": "Orange unisex sweatshirt",
+        "description": "Description for Product 23",
+        "price": 45.99,
+        "image": "https://overlays.co/cdn/shop/products/Untitled-1_0121_126_jpg.jpg?v=1679995687&width=800"
+      },
+      {
+        "id": 24,
+        "name": "creamy male sweatshirt",
+        "description": "Description for Product 26",
+        "price": 29.99,
+        "image": "https://overlays.co/cdn/shop/products/Untitled-1_0015_20_jpg_0c9e14f7-341f-464d-98c9-df07d7beb734.jpg?v=1668605925&width=800"
+      },
+      {
+        "id": 25,
+        "name": "Purple Female sweatshirt",
+        "description": "Description for Product 25",
+        "price": 29.99,
+        "image": "https://overlays.co/cdn/shop/products/Untitled-1_0086_91_jpg_7ed64b6b-1c24-4a2b-a811-5bcec756e1c3.jpg?v=1679995508&width=300"
+      },
+      {
+        "id": 26,
+        "name": "Product 26",
+        "description": "Description for Product 26",
+        "price": 29.99,
+        "image": "https://overlays.co/cdn/shop/products/Untitled-1_0058_63_jpg.jpg?v=1668632687&width=300"
+      },
+      {
+        "id": 27,
+        "name": "Cotton Maroon male T-Shirt",
+        "description": "Description for Product 26",
+        "price": 29.99,
+        "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/t/g/j/s-bb-polo-tshirt-more-more-original-imagm7fzbf3q23yp.jpeg?q=70"
+      },
+      {
+        "id": 28,
+        "name": "Cotton Dark Blue male T-Shirt",
+        "description": "Description for Product 25",
+        "price": 29.99,
+        "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/d/k/u/xl-bb-polo-tshirt-more-more-original-imagm7fzzznaetvn.jpeg?q=70"
+      },
+      {
+        "id": 29,
+        "name": "Cotton Blend White T-Shirt",
+        "description": "Description for Product 26",
+        "price": 29.99,
+        "image": "https://rukminim2.flixcart.com/image/832/832/kuczmvk0/shopsy-t-shirt/7/j/f/l-mens-xoxo-white-smartees-original-imag7hb3xgfe86nh.jpeg?q=70"
+      },
+      {
+        "id": 30,
+        "name": "Polyester Multicolor T-Shirt",
+        "description": "Description for Product 26",
+        "price": 29.99,
+        "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/i/x/a/xl-nitya-3200385-xl-nityanand-creations-original-imagsphq6znjyrb7.jpeg?q=70"
+      },
+      {
+        "id": 31,
+        "name": "men Printed sweattshirt",
+        "description": "Description for Product 25",
+        "price": 29.99,
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/z/0/k/l-all-rbcpon-sky-one-nb-nicky-boy-original-imagrdhcgyk7papf.jpeg?q=70"
+      }
+      
+
+
+  ]
+  

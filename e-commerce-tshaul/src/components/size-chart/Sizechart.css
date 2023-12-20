@@ -1,0 +1,10 @@
+.size-image{
+    height: 100vh;
+    width: 40%;
+    background-size: cover; 
+}
+.main{
+    display: flex;
+    justify-content: center;
+   
+}
