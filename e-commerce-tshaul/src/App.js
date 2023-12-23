@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route,} from "react-router-dom";
 import Home from './components/PAGES/Home/Home';
 import Contact from './components/PAGES/Contact/Contact';
 import ProductDetails from './components/Products/singleProduct/ProductDetails';
@@ -12,6 +12,7 @@ import Femaleproduct from './components/PAGES/female-product/Femaleproduct';
 import Faq from './components/PAGES/FAQ/Faq';
 import Aboutus from './components/PAGES/Aboutus/Aboutus';
 import Login from './components/PAGES/Profile/Login/Login';
+import Register from './components/PAGES/Profile/Register/Register';
 
 
 function App() {
@@ -28,11 +29,11 @@ function App() {
     <Route path='/female-product' element={<Femaleproduct/>}/>
     <Route path='/faq' element ={<Faq/>}/>
     <Route path='/about' element={<Aboutus/>}/>
-    <Route path='./login' element={<Login/>}/>
+    <Route path='/login' element={<Login/>}/>
+    <Route path='/login/register' element={<Register/>}/>
     
     {productsData.map((product, index) => (
-          console.log('Product:', product),
-          <Route key={index} path={`/product/${product.name}`} 
+          <Route key={index} path={`/product/${product.id}`} 
           element={<ProductDetails product={product} />}  />
      ))} 
  

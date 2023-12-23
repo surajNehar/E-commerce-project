@@ -11,6 +11,7 @@ const ProductList = () => {
   
   
   const [searchTerm, setSearchTerm] = useState('');
+  
 
   const [
     totalPages,
@@ -44,7 +45,7 @@ const ProductList = () => {
   
       <div className='product-list'>
         {productsToDisplay.map((product, index) => (
-          <Link key={index} to={`/product/${product.name}`} className='product-item-link'>
+          <Link key={index} to={`/product/${product.id}`} className='product-item-link'>
             <div className='product-item'>
               <img src={product.image} 
               alt={product.name} height={250} 

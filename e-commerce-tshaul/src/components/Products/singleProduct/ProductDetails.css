@@ -1,13 +1,18 @@
 .ts-section {
     display: flex;
     justify-content: space-evenly;
+  
+ }
+ .path{
+  margin-top: 100px;
+  margin-left: 10px;
  }
   
   .image {
     max-width: 100%;
     height: auto;
     border: 2px solid #ddd; /* Add a border to the image */
-    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
   }
   
   
@@ -25,7 +30,9 @@
   .add-remove-btn{
     display: flex;
     gap: 10px;
+    width: 100%;
     margin-bottom: 10px;
+    margin-top: 20px;
   }
   
   .add-button {
@@ -33,7 +40,7 @@
     background-color: #4caf50;
     color: white;
     padding: 10px;
-    min-width: 250px;
+    width: 50%;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -106,6 +113,31 @@
     color: #ffff;
     border: 1px solid black;
   }
-  
-  
-  
+
+  @media (max-width: 1200px) {
+  .ts-section{
+       display: flex;
+       flex-direction: column;
+  }
+
+  .image-info{
+      padding: 20px 10px 20px 10px;
+  }
+  .image{
+    margin: 10px;
+  }
+
+}
+
+#cart-toast{
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.toast-cart-link{
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c99068;
+}

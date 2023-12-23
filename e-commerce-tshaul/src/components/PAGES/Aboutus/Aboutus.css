@@ -4,3 +4,84 @@
     top: 0;
     z-index: 1000;
 }
+.main-about-page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top:85px;
+    margin-bottom: 20px;
+}
+.heading-about{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    
+}
+.head-section{
+    height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-section{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.story-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.story-text{
+    height: 350px;
+    width: 600px;
+}
+.story-para{
+    font-size: 18px;
+}
+
+.drive-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+}
+.drive-text{
+    height: 350px;
+    width: 600px;
+}
+.drive-para{
+    font-size: 18px;
+}
+
+.quality-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+}
+.quality-text{
+    height: 350px;
+    width: 600px;
+}
+.quality-para{
+    font-size: 18px;
+}
+
+.sustain-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+}
+.sustain-text{
+    height: 350px;
+    width: 600px;
+}
+.sustain-para{
+    font-size: 18px;
+}

@@ -47,6 +47,7 @@
   .pagination-container{
      display: flex;
      justify-content: center;
+     margin-bottom: 10px;
   }
   .search-container{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
