@@ -9,14 +9,9 @@ import { useSelector } from "react-redux/es/hooks/useSelector";
 function Navbar() {
   const cart = useSelector((state) => state.items);
 
-  const totalQuantity = function () {
-    const total = cart.reduce((total, item) => total + item.quantity, 0);
-    return total;
-  };
-  const total = totalQuantity();
-
   return (
     <>
+    
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid custom-style">
           <img
@@ -58,33 +53,7 @@ function Navbar() {
                   Shop All
                 </Link>
               </li>
-              <li class="nav-item dropdown">
-                <div
-                  class="nav-link active dropdown-toggle custom-font-size"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Everything
-                </div>
-                <ul class="dropdown-menu">
-                  <li>
-                    <Link class="dropdown-item" to="/male-product">
-                      Male
-                    </Link>
-                  </li>
-                  <li>
-                    <Link class="dropdown-item" to="/female-product">
-                      Female
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link active custom-font-size" to="#">
-                  Sweatshirt
-                </Link>
-              </li>
+              
             </ul>
 
             <div className="d-flex">
@@ -131,7 +100,7 @@ function Navbar() {
                     to="/cart"
                   >
                     <FaShoppingCart />
-                    <span id="cart-length">{total !== 0 ? total : "0"}</span>
+                    <span id="cart-length">{cart.length}</span>
                   </Link>
                 </li>
               </ul>

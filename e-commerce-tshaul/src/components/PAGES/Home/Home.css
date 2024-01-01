@@ -1,7 +1,16 @@
-.nav-section{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+.nav-section {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
-  
+.top-section {
+  margin-top: 90px;
+  background-image: url("https://overlays.co/cdn/shop/files/Banner-_5a_62d15b9d-92d8-4543-9279-2e17dee6cb16.jpg?v=1703310192&width=2000");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.custom-style{
+  background-color: #C1F2B0;
+}

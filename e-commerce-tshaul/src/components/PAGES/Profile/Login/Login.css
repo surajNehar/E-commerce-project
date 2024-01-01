@@ -4,6 +4,32 @@
     top: 0;
     z-index: 1000;
 }
+.profile-section{
+  margin-top: 100px;
+  text-align: center;
+}
+.proo-imge{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.profile-section button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #38419D;
+  color: #fff;
+  border: 2px solid white;
+}
+.profile-section button:hover{
+  background-color: #200E3A;
+
+}
 
 
 /* Login.css */
@@ -15,12 +41,13 @@
 }
 
 .login-container {
-    margin-top: 100px;
     width: 500px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    margin-top: 100px;
   }
   .head-login{
     text-align: center;

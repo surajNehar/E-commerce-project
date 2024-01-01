@@ -11,7 +11,7 @@ const Shopall = () => {
     <Navbar/>
    </div>
    <div className='product-section'>
-    
+    <ProductList/>
    </div>
    <Footer/>
    </>

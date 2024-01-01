@@ -1,6 +1,7 @@
 // Register.js
-
+import { app } from "../../../../firebase"; 
 import React, { useState } from "react";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import "./Register.css";
 import Navbar from "../../../Navbar/Navbar";
 import Footer from "../../../Footer/Footer";
@@ -8,9 +9,14 @@ import { GrDeliver } from "react-icons/gr";
 import { PiKeyReturnFill } from "react-icons/pi";
 import { MdContacts } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { getDatabase, ref, set } from "firebase/database";
 
 const Register = () => {
-   
+     
+  
+  const auth = getAuth(app);
+  const db = getDatabase(app);
+
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
@@ -24,15 +30,30 @@ const Register = () => {
     setPassword(e.target.value);
   };
 
-  const handleRegister = () => {
-    // Save user data to local storage
-    const userData = { email, password };
-    localStorage.setItem("userData", JSON.stringify(userData));
-    console.log("User registered:", userData);
-    setEmail("");
-    setPassword("");
-    alert("register successfully !!")
-    navigate("/login")
+  const userRegister = () => {
+     createUserWithEmailAndPassword(auth,email,password)
+     .then((usercredential) => {
+      console.log(usercredential.user.email);
+     
+      // set a data to realtime db 
+      const email = usercredential.user.email;
+      set(ref(db,`users/${usercredential.user.uid}`),{
+        email:email,
+      })
+
+      alert("Register success ");
+      setTimeout(() => {
+        navigate('/login')
+      },2000);
+     })
+     .catch((err) => {
+      console.log(err);
+      alert("not register");
+     })
+
+     setEmail("");
+     setPassword("");
+  
   };
 
   return (
@@ -69,7 +90,7 @@ const Register = () => {
             />
           </div>
 
-          <button className="register-btn" onClick={handleRegister}>
+          <button className="register-btn" onClick={userRegister}>
             REGISTER
           </button>
         </div>

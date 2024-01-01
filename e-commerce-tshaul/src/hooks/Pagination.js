@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 export const usePagination = (perPageRecords,totalPageRecords) => {
 
@@ -23,9 +23,8 @@ export const usePagination = (perPageRecords,totalPageRecords) => {
             setEndPageIndex(endPageIndex)
         }
 
-
     }
-
+    
     return[totalPages
     ,startPageIndex
     ,endPageIndex

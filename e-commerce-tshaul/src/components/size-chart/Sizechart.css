@@ -6,5 +6,12 @@
 .main{
     display: flex;
     justify-content: center;
-   
+     
+}
+
+.size-btn{
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
 }
