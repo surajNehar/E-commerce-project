@@ -4,6 +4,7 @@ import Navbar from "../../Navbar/Navbar";
 import { useSelector } from "react-redux/es/hooks/useSelector";
 import Footer from "../../Footer/Footer";
 import { Link, useNavigate } from "react-router-dom";
+import imgUrl from "./images/back-img.jpg";
 
 function Home() {
   const cart = useSelector((state) => state.items);
@@ -36,14 +37,12 @@ function Home() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-          <img
-                src="https://img.freepik.com/free-photo/young-brunet-man-wearing-white-t-shirt_273609-21798.jpg?w=996&t=st=1704088613~exp=1704089213~hmac=d5dcc10e4ccf075c8a14c98096d37fa1daff2508ae8ce0b12da115239a5684f0"
-                className="card-img-top img-fluid"
-                alt="Product Image"
-              />
-
+            <img
+              src={imgUrl}
+              className="card-img-top img-fluid"
+              alt="Product Image"
+            />
           </div>
-
         </div>
       </div>
 
@@ -57,7 +56,6 @@ function Home() {
                 className="card-img-top"
                 alt="Product Image"
               />
-              
             </div>
           </div>
 
@@ -68,7 +66,6 @@ function Home() {
                 className="card-img-top"
                 alt="Product Image"
               />
-            
             </div>
           </div>
 
@@ -79,7 +76,6 @@ function Home() {
                 className="card-img-top"
                 alt="Product Image"
               />
-             
             </div>
           </div>
 
@@ -90,7 +86,6 @@ function Home() {
                 className="card-img-top"
                 alt="Product Image"
               />
-             
             </div>
           </div>
         </div>
